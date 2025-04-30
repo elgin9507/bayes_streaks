@@ -1,0 +1,9 @@
+{
+  "type": "DRAGON_KILL",
+  "payload": {
+    "killerID": "riot:lol:player:b8945185-74af-35f1-8f66-89043bc89e91",
+    "dragonType": "air",
+    "goldGranted": 25
+  },
+  "timestamp": "2024-01-01 19:23:06"
+}

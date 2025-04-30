@@ -1,0 +1,8 @@
+{
+    "type": "MINION_KILL",
+    "payload": {
+        "playerID": "player_4",
+        "goldGranted": 21
+    },
+    "timestamp": "2024-01-01 12:10:10"
+}

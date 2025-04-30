@@ -1,0 +1,8 @@
+{
+  "type": "MINION_KILL",
+  "payload": {
+    "playerID": "riot:lol:player:b8945185-74af-35f1-8f66-89043bc89e91",
+    "goldGranted": 14
+  },
+  "timestamp": "2024-01-01 19:17:58"
+}

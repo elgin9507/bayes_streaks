@@ -1,0 +1,50 @@
+{
+  "matchID": "game_1",
+  "type": "MATCH_START",
+  "payload": {
+    "fixture": {
+      "startTime": "2022-01-01T12:00:00Z",
+      "title": "LOL",
+      "seriesCurrent": 1,
+      "seriesMax": 5,
+      "seriesType": "BEST_OF"
+    },
+    "teams": [
+      {
+        "teamID": "team_1",
+        "players": [
+          {
+            "playerID": "player_1",
+            "gold": 500,
+            "alive": true,
+            "name": "RGE Odoamne"
+          },
+          {
+            "playerID": "player_2",
+            "gold": 500,
+            "alive": true,
+            "name": "RGE Malrang"
+          }
+        ]
+      },
+      {
+        "teamID": "team_2",
+        "players": [
+          {
+            "playerID": "player_3",
+            "gold": 500,
+            "alive": true,
+            "name": "G2 BrokenBlade"
+          },
+          {
+            "playerID": "player_4",
+            "gold": 500,
+            "alive": true,
+            "name": "G2 Jankos"
+          }
+        ]
+      }
+    ]
+  },
+  "timestamp": "2024-01-01 12:00:00"
+}

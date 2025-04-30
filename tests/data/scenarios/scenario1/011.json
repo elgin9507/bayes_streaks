@@ -1,0 +1,13 @@
+{
+    "type": "PLAYER_KILL",
+    "payload": {
+        "killerID": "player_3",
+        "victimID": "player_1",
+        "goldGranted": 750,
+        "assistants": [
+            "player_4"
+        ],
+        "assistGold": 375
+    },
+    "timestamp": "2024-01-01 12:04:01"
+}

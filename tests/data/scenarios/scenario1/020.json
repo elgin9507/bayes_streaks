@@ -1,0 +1,8 @@
+{
+  "matchID": "game_1",
+  "type": "MATCH_END",
+  "payload": {
+    "winningTeamID": "team_2"
+  },
+  "timestamp": "2024-01-01 14:00:00"
+}

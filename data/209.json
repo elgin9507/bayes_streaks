@@ -1,0 +1,13 @@
+{
+  "type": "PLAYER_KILL",
+  "payload": {
+    "killerID": "riot:lol:player:cdc1b37f-c9d0-3a7e-a201-8dd5b0bd99bb",
+    "victimID": "riot:lol:player:b8945185-74af-35f1-8f66-89043bc89e91",
+    "goldGranted": 850,
+    "assistants": [
+      "riot:lol:player:404eeb82-f744-3a4c-aa49-88d29f4ae5fb"
+    ],
+    "assistGold": 175
+  },
+  "timestamp": "2024-01-01 15:28:21"
+}

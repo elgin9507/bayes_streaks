@@ -1,0 +1,28 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
+    command: watchmedo auto-restart --recursive --pattern="**/*.py" --directory="/var/app/" python -- -m app.main
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/var/app
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq/
+    depends_on:
+      - rabbitmq
+      - redis
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"

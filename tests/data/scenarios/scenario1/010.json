@@ -1,0 +1,9 @@
+{
+    "type": "DRAGON_KILL",
+    "payload": {
+        "killerID": "player_3",
+        "dragonType": "air",
+        "goldGranted": 25
+    },
+    "timestamp": "2024-01-01 12:04:01"
+}
